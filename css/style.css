@@ -35,6 +35,23 @@ body{
   line-height: 1.2;
 }
 
+.word1{font-size: 50px;}
+.word2{font-size: 40px;}
+.word3{font-size: 60px;}
+
+.accessSec{
+  margin-left: 48px;
+}
+.accessSec h3{
+  color: #cfafa3;
+  font-size: 55px;
+  letter-spacing: .05em;
+  margin-bottom: 8px;
+}
+
+.accessSec p{
+  line-height: 1.6;
+}
 
 main h2{
   text-align: center;
@@ -116,4 +133,70 @@ header nav ul li a:hover {
   padding: absolute;
   right: 320px;
   bottom: -30px;
+}
+
+.formSec{
+  background-color: #efe8d9;
+  padding-bottom: 60px;
+}
+
+form{
+  width: 600px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 5px;
+  padding: 4px 8px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+width: 16px;
+height: 16px;
+vertical-align: baseline;
+margin-right: 4px;
+}
+
+.attendRadio{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.attendRadio label{
+  margin: 0 20px;
+  font-size: 24px;
+}
+
+.allergyCheck label{
+  margin-right: 24px;
+}
+
+select{
+  background: #ffffff url(../images/arrow.png) no-repeat 98% 50%/17px 10px;
+}
+
+textarea{
+  height: 148px;
+  margin-bottom: 30px;
+}
+
+form > p{
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.submitBtn{
+  text-align: center;
+}
+
+input[type="submit"]{
+  background-color: #121212;
+  color: #ffffff;
+  padding: 18px 80px;
 }
